@@ -19,49 +19,58 @@
      <div>
       <nav id="navbar">
         <header>Here we will discuss some basic array methods in JavaScript.</header>
-        <a href = "#shift_method" class = "nav-link">Shift method</a>
         <a href = "#slice_method" class = "nav-link">Slice method</a>
-        <a href = "#split_method" class = "nav-link">Split method</a>
+        <a href = "#toString_method" class = "nav-link">toString method</a>
         <a href = "#push_method" class = "nav-link">Push method</a>
         <a href = "#pop_method" class = "nav-link">Pop method</a>
+        <a href = "#shift_method" class = "nav-link">Shift method</a>
       </nav>
   </div>
 <div class = "sections-container">
-  <section class = "main-section" id="shift_method">
-      <header>Shift Method</header>
-      <p></p>
-      <p></p>
-      <code id="script-enabled">Shift()</code>
-      <li></li>
-  </section>
   <section class = "main-section" id="slice_method">
-      <header>Slice method</header>
-      <p></p>
-      <p></p>
-      <code id="script-enabled"></code>
-      <li></li>
+      <header>Slice Method</header>
+      <p>The <code>slice()</code> method slices out a piece of an array and returns a new array containing the sliced out items.</p>
+      <p>The example below slices out a part of an array starting from array element 2 ("blue").</p>
+      <code>let colors = ["red", "yellow", "blue", "black", "white"]
+        <br>let someColors = colors.slice(2) </code>
+      <li>This method creates a new array. It doesn't change the source array.</li>
   </section>
-  <section class = "main-section" id="split_method">
-      <header>Split Method</header>
-      <p></p>
-      <p></p>
-      <code></code>
-      <li></li>
+  <section class = "main-section" id="toString_method">
+      <header>toString Method</header>
+      <p>The JavaScript method <code>toString()</code>, converts an array to a string of comma separated array items. </p>
+      <p>See the example below:</p>
+      <code>let colors = ["red", "yellow", "blue", "black", "white"]
+        <br>let myColors = colors.toString();
+      </code>
+      <li>The <code>join()</code> method works similarily, but a separator can be specified in addition.</li>
   </section>
   <section class = "main-section" id="push_method">
       <header>Push Method</header>
-      <p></p>
-      <p></p>
-      <code></code>
-      <li></li>
+      <p>The <code>push()</code> method adds a new element to an array, at the end.</p>
+      <p>See the example below:</p>
+      <code>let colors = ["red", "yellow", "blue", "black", "white"]
+        <br>colors.push("green") // adds a new element ("green") to colors
+      </code>
+      <li>This method returns the new array length.</li>
   </section>
   <section class = "main-section" id="pop_method">
       <header>Pop Method</header>
-      <p></p>
-      <p></p>
-      <code></code>
-      <li></li>
+      <p>The pop() method removes the last element from an array. </p>
+      <p>See the example below:</p>
+      <code>let colors = ["red", "yellow", "blue", "black", "white"]
+        <br>colors.pop()
+      </code>
+      <li>This method returns the value that was "popped out"</li>
   </section>
+  <section class = "main-section" id="shift_method">
+    <header>Shift Method</header>
+    <p>Shifting is equivalent to popping, but it works on the first element of the array, instead of the last.</p>
+    <p>This method removes the first array element and "shift" all the other elements to a lower (-1) index.</p>
+    <code>let colors = ["red", "yellow", "blue", "black", "white"]
+      <br> fruits.shit() // Removes the first element "red" from colors
+    </code>
+    <li>This method returns the element that was "shifted out"</li>
+</section>
 </div>
   </main>
 

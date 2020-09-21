@@ -7,6 +7,7 @@
 
 .sections-container {
     align-self: flex-end;
+    background-color: rgb(163, 248, 241);
     width: 100%;
 } 
 
@@ -14,14 +15,16 @@ main {
     display: flex;
 }
 
+.main-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+}
+
 code {
-    color: #424242;
-  }
-  
-  
-  
-  @media (scripting: enabled) {
-    #script-enabled {
-      color: lightgray;
-    }
-  }
+    background-color: whitesmoke;
+}
