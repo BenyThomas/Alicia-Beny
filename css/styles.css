@@ -7,10 +7,21 @@
 
 .sections-container {
     align-self: flex-end;
-    background-color: aqua;
     width: 100%;
 } 
 
 main {
     display: flex;
 }
+
+code {
+    color: #424242;
+  }
+  
+  
+  
+  @media (scripting: enabled) {
+    #script-enabled {
+      color: lightgray;
+    }
+  }
