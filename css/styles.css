@@ -4,7 +4,7 @@
     justify-content: flex-start;
 }
 
-sections-container {
-    display: flex;
-    justify-content: center;
+.sections-container {
+    width: 80%;
+    background-color: aqua;
 }
