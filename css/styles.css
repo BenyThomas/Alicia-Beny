@@ -7,10 +7,24 @@
 
 .sections-container {
     align-self: flex-end;
-    background-color: aqua;
+    background-color: rgb(163, 248, 241);
     width: 100%;
 } 
 
 main {
     display: flex;
+}
+
+.main-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+}
+
+code {
+    background-color: whitesmoke;
 }
