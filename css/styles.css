@@ -1,0 +1,10 @@
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+sections-container {
+    display: flex;
+    justify-content: center;
+}
